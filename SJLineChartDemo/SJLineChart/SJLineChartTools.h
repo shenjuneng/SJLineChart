@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 #import "UIView+SJLineChart.h"
 
 #define P_M(x,y) CGPointMake(x, y)

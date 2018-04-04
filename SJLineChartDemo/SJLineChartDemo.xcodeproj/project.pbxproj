@@ -66,6 +66,7 @@
 		9F0887F92074ABF70055A839 /* SJLinePointItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLinePointItem.m; sourceTree = "<group>"; };
 		9F0887FE2074AD130055A839 /* UIView+SJLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SJLineChart.h"; sourceTree = "<group>"; };
 		9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJLineChart.m"; sourceTree = "<group>"; };
+		9F0888012074BB280055A839 /* SJLineChart.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJLineChart.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +127,7 @@
 				9F0887BE2074A9750055A839 /* LaunchScreen.storyboard */,
 				9F0887C12074A9750055A839 /* Info.plist */,
 				9F0887C22074A9750055A839 /* main.m */,
+				9F0888012074BB280055A839 /* SJLineChart.pch */,
 			);
 			path = SJLineChartDemo;
 			sourceTree = "<group>";
@@ -398,6 +400,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJLineChartDemo/SJLineChart.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -454,6 +458,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJLineChartDemo/SJLineChart.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

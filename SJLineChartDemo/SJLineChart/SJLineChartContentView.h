@@ -6,7 +6,6 @@
 //  Copyright © 2018年 沈骏. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "SJLineChartView.h"
 
 @interface SJLineChartContentView : UIView
