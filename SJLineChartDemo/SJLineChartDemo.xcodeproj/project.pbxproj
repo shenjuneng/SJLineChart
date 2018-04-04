@@ -15,6 +15,11 @@
 		9F0887C32074A9750055A839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887C22074A9750055A839 /* main.m */; };
 		9F0887CD2074A9750055A839 /* SJLineChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887CC2074A9750055A839 /* SJLineChartDemoTests.m */; };
 		9F0887D82074A9750055A839 /* SJLineChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887D72074A9750055A839 /* SJLineChartDemoUITests.m */; };
+		9F0887FA2074ABF70055A839 /* SJLineChartTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F22074ABF50055A839 /* SJLineChartTools.m */; };
+		9F0887FB2074ABF70055A839 /* SJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F32074ABF60055A839 /* SJLineChartView.m */; };
+		9F0887FC2074ABF70055A839 /* SJLineChartContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F62074ABF60055A839 /* SJLineChartContentView.m */; };
+		9F0887FD2074ABF70055A839 /* SJLinePointItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F92074ABF70055A839 /* SJLinePointItem.m */; };
+		9F0888002074AD130055A839 /* UIView+SJLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		9F0887D32074A9750055A839 /* SJLineChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJLineChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0887D72074A9750055A839 /* SJLineChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJLineChartDemoUITests.m; sourceTree = "<group>"; };
 		9F0887D92074A9750055A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0887F22074ABF50055A839 /* SJLineChartTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartTools.m; sourceTree = "<group>"; };
+		9F0887F32074ABF60055A839 /* SJLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartView.m; sourceTree = "<group>"; };
+		9F0887F42074ABF60055A839 /* SJLineChartTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartTools.h; sourceTree = "<group>"; };
+		9F0887F52074ABF60055A839 /* SJLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartView.h; sourceTree = "<group>"; };
+		9F0887F62074ABF60055A839 /* SJLineChartContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartContentView.m; sourceTree = "<group>"; };
+		9F0887F72074ABF70055A839 /* SJLinePointItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLinePointItem.h; sourceTree = "<group>"; };
+		9F0887F82074ABF70055A839 /* SJLineChartContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartContentView.h; sourceTree = "<group>"; };
+		9F0887F92074ABF70055A839 /* SJLinePointItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLinePointItem.m; sourceTree = "<group>"; };
+		9F0887FE2074AD130055A839 /* UIView+SJLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SJLineChart.h"; sourceTree = "<group>"; };
+		9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJLineChart.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		9F0887B22074A9720055A839 /* SJLineChartDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9F0887E52074AA430055A839 /* SJLineChart */,
 				9F0887B32074A9720055A839 /* AppDelegate.h */,
 				9F0887B42074A9720055A839 /* AppDelegate.m */,
 				9F0887B62074A9720055A839 /* ViewController.h */,
@@ -130,6 +146,23 @@
 				9F0887D92074A9750055A839 /* Info.plist */,
 			);
 			path = SJLineChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		9F0887E52074AA430055A839 /* SJLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				9F0887F82074ABF70055A839 /* SJLineChartContentView.h */,
+				9F0887F62074ABF60055A839 /* SJLineChartContentView.m */,
+				9F0887F42074ABF60055A839 /* SJLineChartTools.h */,
+				9F0887F22074ABF50055A839 /* SJLineChartTools.m */,
+				9F0887F52074ABF60055A839 /* SJLineChartView.h */,
+				9F0887F32074ABF60055A839 /* SJLineChartView.m */,
+				9F0887F72074ABF70055A839 /* SJLinePointItem.h */,
+				9F0887F92074ABF70055A839 /* SJLinePointItem.m */,
+				9F0887FE2074AD130055A839 /* UIView+SJLineChart.h */,
+				9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */,
+			);
+			path = SJLineChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0887FC2074ABF70055A839 /* SJLineChartContentView.m in Sources */,
 				9F0887B82074A9720055A839 /* ViewController.m in Sources */,
+				9F0888002074AD130055A839 /* UIView+SJLineChart.m in Sources */,
+				9F0887FA2074ABF70055A839 /* SJLineChartTools.m in Sources */,
+				9F0887FB2074ABF70055A839 /* SJLineChartView.m in Sources */,
 				9F0887C32074A9750055A839 /* main.m in Sources */,
 				9F0887B52074A9720055A839 /* AppDelegate.m in Sources */,
+				9F0887FD2074ABF70055A839 /* SJLinePointItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
