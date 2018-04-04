@@ -96,6 +96,7 @@
 		9F0887A72074A9720055A839 = {
 			isa = PBXGroup;
 			children = (
+				9F0887E52074AA430055A839 /* SJLineChart */,
 				9F0887B22074A9720055A839 /* SJLineChartDemo */,
 				9F0887CB2074A9750055A839 /* SJLineChartDemoTests */,
 				9F0887D62074A9750055A839 /* SJLineChartDemoUITests */,
@@ -116,7 +117,6 @@
 		9F0887B22074A9720055A839 /* SJLineChartDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9F0887E52074AA430055A839 /* SJLineChart */,
 				9F0887B32074A9720055A839 /* AppDelegate.h */,
 				9F0887B42074A9720055A839 /* AppDelegate.m */,
 				9F0887B62074A9720055A839 /* ViewController.h */,
