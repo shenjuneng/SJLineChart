@@ -25,7 +25,7 @@
 
 @interface SJLineChartView : UIView
 
-@property (weak, nonatomic) id<SJLineChartViewDataSource> datasource;
+@property (strong, nonatomic) id<SJLineChartViewDataSource> datasource;
 /**
  Y轴上的刻度列表
  */
