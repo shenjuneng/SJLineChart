@@ -7,84 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F0887B52074A9720055A839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887B42074A9720055A839 /* AppDelegate.m */; };
-		9F0887B82074A9720055A839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887B72074A9720055A839 /* ViewController.m */; };
-		9F0887BB2074A9720055A839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0887B92074A9720055A839 /* Main.storyboard */; };
-		9F0887BD2074A9750055A839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0887BC2074A9750055A839 /* Assets.xcassets */; };
-		9F0887C02074A9750055A839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0887BE2074A9750055A839 /* LaunchScreen.storyboard */; };
-		9F0887C32074A9750055A839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887C22074A9750055A839 /* main.m */; };
-		9F0887CD2074A9750055A839 /* SJLineChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887CC2074A9750055A839 /* SJLineChartDemoTests.m */; };
-		9F0887D82074A9750055A839 /* SJLineChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887D72074A9750055A839 /* SJLineChartDemoUITests.m */; };
-		9F0887FA2074ABF70055A839 /* SJLineChartTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F22074ABF50055A839 /* SJLineChartTools.m */; };
-		9F0887FB2074ABF70055A839 /* SJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F32074ABF60055A839 /* SJLineChartView.m */; };
-		9F0887FC2074ABF70055A839 /* SJLineChartContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F62074ABF60055A839 /* SJLineChartContentView.m */; };
-		9F0887FD2074ABF70055A839 /* SJLinePointItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887F92074ABF70055A839 /* SJLinePointItem.m */; };
-		9F0888002074AD130055A839 /* UIView+SJLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */; };
+		9F7A7272207C498C0053BE7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A7271207C498C0053BE7F /* AppDelegate.m */; };
+		9F7A7275207C498C0053BE7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A7274207C498C0053BE7F /* ViewController.m */; };
+		9F7A7278207C498C0053BE7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A7276207C498C0053BE7F /* Main.storyboard */; };
+		9F7A727A207C498E0053BE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A7279207C498E0053BE7F /* Assets.xcassets */; };
+		9F7A727D207C498E0053BE7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A727B207C498E0053BE7F /* LaunchScreen.storyboard */; };
+		9F7A7280207C498E0053BE7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A727F207C498E0053BE7F /* main.m */; };
+		9F7A728A207C498E0053BE7F /* SJLineChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A7289207C498E0053BE7F /* SJLineChartDemoTests.m */; };
+		9F7A7295207C498E0053BE7F /* SJLineChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A7294207C498E0053BE7F /* SJLineChartDemoUITests.m */; };
+		9F7A72AD207C49DE0053BE7F /* SJLineChartContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A72A3207C49DE0053BE7F /* SJLineChartContentView.m */; };
+		9F7A72AE207C49DE0053BE7F /* SJLineChartTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A72A6207C49DE0053BE7F /* SJLineChartTools.m */; };
+		9F7A72AF207C49DE0053BE7F /* SJLinePointItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A72A8207C49DE0053BE7F /* SJLinePointItem.m */; };
+		9F7A72B0207C49DE0053BE7F /* UIView+SJLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A72AA207C49DE0053BE7F /* UIView+SJLineChart.m */; };
+		9F7A72B1207C49DE0053BE7F /* SJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A72AC207C49DE0053BE7F /* SJLineChartView.m */; };
+		9F7A72B4207C4BEF0053BE7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7A72B3207C4BEE0053BE7F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9F0887C92074A9750055A839 /* PBXContainerItemProxy */ = {
+		9F7A7286207C498E0053BE7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9F0887A82074A9720055A839 /* Project object */;
+			containerPortal = 9F7A7265207C498C0053BE7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F0887AF2074A9720055A839;
+			remoteGlobalIDString = 9F7A726C207C498C0053BE7F;
 			remoteInfo = SJLineChartDemo;
 		};
-		9F0887D42074A9750055A839 /* PBXContainerItemProxy */ = {
+		9F7A7291207C498E0053BE7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9F0887A82074A9720055A839 /* Project object */;
+			containerPortal = 9F7A7265207C498C0053BE7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F0887AF2074A9720055A839;
+			remoteGlobalIDString = 9F7A726C207C498C0053BE7F;
 			remoteInfo = SJLineChartDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F0887B02074A9720055A839 /* SJLineChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJLineChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F0887B32074A9720055A839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9F0887B42074A9720055A839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F0887B62074A9720055A839 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F0887B72074A9720055A839 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F0887BA2074A9720055A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F0887BC2074A9750055A839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F0887BF2074A9750055A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9F0887C12074A9750055A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F0887C22074A9750055A839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F0887C82074A9750055A839 /* SJLineChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJLineChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F0887CC2074A9750055A839 /* SJLineChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJLineChartDemoTests.m; sourceTree = "<group>"; };
-		9F0887CE2074A9750055A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F0887D32074A9750055A839 /* SJLineChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJLineChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F0887D72074A9750055A839 /* SJLineChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJLineChartDemoUITests.m; sourceTree = "<group>"; };
-		9F0887D92074A9750055A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F0887F22074ABF50055A839 /* SJLineChartTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartTools.m; sourceTree = "<group>"; };
-		9F0887F32074ABF60055A839 /* SJLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartView.m; sourceTree = "<group>"; };
-		9F0887F42074ABF60055A839 /* SJLineChartTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartTools.h; sourceTree = "<group>"; };
-		9F0887F52074ABF60055A839 /* SJLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartView.h; sourceTree = "<group>"; };
-		9F0887F62074ABF60055A839 /* SJLineChartContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartContentView.m; sourceTree = "<group>"; };
-		9F0887F72074ABF70055A839 /* SJLinePointItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLinePointItem.h; sourceTree = "<group>"; };
-		9F0887F82074ABF70055A839 /* SJLineChartContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartContentView.h; sourceTree = "<group>"; };
-		9F0887F92074ABF70055A839 /* SJLinePointItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLinePointItem.m; sourceTree = "<group>"; };
-		9F0887FE2074AD130055A839 /* UIView+SJLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SJLineChart.h"; sourceTree = "<group>"; };
-		9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJLineChart.m"; sourceTree = "<group>"; };
-		9F0888012074BB280055A839 /* SJLineChart.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJLineChart.pch; sourceTree = "<group>"; };
+		9F7A726D207C498C0053BE7F /* SJLineChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJLineChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7A7270207C498C0053BE7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F7A7271207C498C0053BE7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F7A7273207C498C0053BE7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F7A7274207C498C0053BE7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F7A7277207C498C0053BE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F7A7279207C498E0053BE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F7A727C207C498E0053BE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F7A727E207C498E0053BE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7A727F207C498E0053BE7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F7A7285207C498E0053BE7F /* SJLineChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJLineChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7A7289207C498E0053BE7F /* SJLineChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJLineChartDemoTests.m; sourceTree = "<group>"; };
+		9F7A728B207C498E0053BE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7A7290207C498E0053BE7F /* SJLineChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJLineChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7A7294207C498E0053BE7F /* SJLineChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJLineChartDemoUITests.m; sourceTree = "<group>"; };
+		9F7A7296207C498F0053BE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7A72A3207C49DE0053BE7F /* SJLineChartContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartContentView.m; sourceTree = "<group>"; };
+		9F7A72A4207C49DE0053BE7F /* SJLinePointItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLinePointItem.h; sourceTree = "<group>"; };
+		9F7A72A5207C49DE0053BE7F /* SJLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartView.h; sourceTree = "<group>"; };
+		9F7A72A6207C49DE0053BE7F /* SJLineChartTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartTools.m; sourceTree = "<group>"; };
+		9F7A72A7207C49DE0053BE7F /* UIView+SJLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SJLineChart.h"; sourceTree = "<group>"; };
+		9F7A72A8207C49DE0053BE7F /* SJLinePointItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLinePointItem.m; sourceTree = "<group>"; };
+		9F7A72A9207C49DE0053BE7F /* SJLineChartContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartContentView.h; sourceTree = "<group>"; };
+		9F7A72AA207C49DE0053BE7F /* UIView+SJLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJLineChart.m"; sourceTree = "<group>"; };
+		9F7A72AB207C49DE0053BE7F /* SJLineChartTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLineChartTools.h; sourceTree = "<group>"; };
+		9F7A72AC207C49DE0053BE7F /* SJLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLineChartView.m; sourceTree = "<group>"; };
+		9F7A72B3207C4BEE0053BE7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F0887AD2074A9720055A839 /* Frameworks */ = {
+		9F7A726A207C498C0053BE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7A72B4207C4BEF0053BE7F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7A7282207C498E0053BE7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0887C52074A9750055A839 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F0887D02074A9750055A839 /* Frameworks */ = {
+		9F7A728D207C498E0053BE7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,89 +96,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F0887A72074A9720055A839 = {
+		9F7A7264207C498C0053BE7F = {
 			isa = PBXGroup;
 			children = (
-				9F0887E52074AA430055A839 /* SJLineChart */,
-				9F0887B22074A9720055A839 /* SJLineChartDemo */,
-				9F0887CB2074A9750055A839 /* SJLineChartDemoTests */,
-				9F0887D62074A9750055A839 /* SJLineChartDemoUITests */,
-				9F0887B12074A9720055A839 /* Products */,
+				9F7A72A2207C49DE0053BE7F /* SJLineChart */,
+				9F7A726F207C498C0053BE7F /* SJLineChartDemo */,
+				9F7A7288207C498E0053BE7F /* SJLineChartDemoTests */,
+				9F7A7293207C498E0053BE7F /* SJLineChartDemoUITests */,
+				9F7A726E207C498C0053BE7F /* Products */,
+				9F7A72B2207C4BEE0053BE7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9F0887B12074A9720055A839 /* Products */ = {
+		9F7A726E207C498C0053BE7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F0887B02074A9720055A839 /* SJLineChartDemo.app */,
-				9F0887C82074A9750055A839 /* SJLineChartDemoTests.xctest */,
-				9F0887D32074A9750055A839 /* SJLineChartDemoUITests.xctest */,
+				9F7A726D207C498C0053BE7F /* SJLineChartDemo.app */,
+				9F7A7285207C498E0053BE7F /* SJLineChartDemoTests.xctest */,
+				9F7A7290207C498E0053BE7F /* SJLineChartDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F0887B22074A9720055A839 /* SJLineChartDemo */ = {
+		9F7A726F207C498C0053BE7F /* SJLineChartDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9F0887B32074A9720055A839 /* AppDelegate.h */,
-				9F0887B42074A9720055A839 /* AppDelegate.m */,
-				9F0887B62074A9720055A839 /* ViewController.h */,
-				9F0887B72074A9720055A839 /* ViewController.m */,
-				9F0887B92074A9720055A839 /* Main.storyboard */,
-				9F0887BC2074A9750055A839 /* Assets.xcassets */,
-				9F0887BE2074A9750055A839 /* LaunchScreen.storyboard */,
-				9F0887C12074A9750055A839 /* Info.plist */,
-				9F0887C22074A9750055A839 /* main.m */,
-				9F0888012074BB280055A839 /* SJLineChart.pch */,
+				9F7A7270207C498C0053BE7F /* AppDelegate.h */,
+				9F7A7271207C498C0053BE7F /* AppDelegate.m */,
+				9F7A7273207C498C0053BE7F /* ViewController.h */,
+				9F7A7274207C498C0053BE7F /* ViewController.m */,
+				9F7A7276207C498C0053BE7F /* Main.storyboard */,
+				9F7A7279207C498E0053BE7F /* Assets.xcassets */,
+				9F7A727B207C498E0053BE7F /* LaunchScreen.storyboard */,
+				9F7A727E207C498E0053BE7F /* Info.plist */,
+				9F7A727F207C498E0053BE7F /* main.m */,
 			);
 			path = SJLineChartDemo;
 			sourceTree = "<group>";
 		};
-		9F0887CB2074A9750055A839 /* SJLineChartDemoTests */ = {
+		9F7A7288207C498E0053BE7F /* SJLineChartDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F0887CC2074A9750055A839 /* SJLineChartDemoTests.m */,
-				9F0887CE2074A9750055A839 /* Info.plist */,
+				9F7A7289207C498E0053BE7F /* SJLineChartDemoTests.m */,
+				9F7A728B207C498E0053BE7F /* Info.plist */,
 			);
 			path = SJLineChartDemoTests;
 			sourceTree = "<group>";
 		};
-		9F0887D62074A9750055A839 /* SJLineChartDemoUITests */ = {
+		9F7A7293207C498E0053BE7F /* SJLineChartDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9F0887D72074A9750055A839 /* SJLineChartDemoUITests.m */,
-				9F0887D92074A9750055A839 /* Info.plist */,
+				9F7A7294207C498E0053BE7F /* SJLineChartDemoUITests.m */,
+				9F7A7296207C498F0053BE7F /* Info.plist */,
 			);
 			path = SJLineChartDemoUITests;
 			sourceTree = "<group>";
 		};
-		9F0887E52074AA430055A839 /* SJLineChart */ = {
+		9F7A72A2207C49DE0053BE7F /* SJLineChart */ = {
 			isa = PBXGroup;
 			children = (
-				9F0887F82074ABF70055A839 /* SJLineChartContentView.h */,
-				9F0887F62074ABF60055A839 /* SJLineChartContentView.m */,
-				9F0887F42074ABF60055A839 /* SJLineChartTools.h */,
-				9F0887F22074ABF50055A839 /* SJLineChartTools.m */,
-				9F0887F52074ABF60055A839 /* SJLineChartView.h */,
-				9F0887F32074ABF60055A839 /* SJLineChartView.m */,
-				9F0887F72074ABF70055A839 /* SJLinePointItem.h */,
-				9F0887F92074ABF70055A839 /* SJLinePointItem.m */,
-				9F0887FE2074AD130055A839 /* UIView+SJLineChart.h */,
-				9F0887FF2074AD130055A839 /* UIView+SJLineChart.m */,
+				9F7A72A3207C49DE0053BE7F /* SJLineChartContentView.m */,
+				9F7A72A9207C49DE0053BE7F /* SJLineChartContentView.h */,
+				9F7A72A4207C49DE0053BE7F /* SJLinePointItem.h */,
+				9F7A72A8207C49DE0053BE7F /* SJLinePointItem.m */,
+				9F7A72A5207C49DE0053BE7F /* SJLineChartView.h */,
+				9F7A72AC207C49DE0053BE7F /* SJLineChartView.m */,
+				9F7A72A6207C49DE0053BE7F /* SJLineChartTools.m */,
+				9F7A72AB207C49DE0053BE7F /* SJLineChartTools.h */,
+				9F7A72A7207C49DE0053BE7F /* UIView+SJLineChart.h */,
+				9F7A72AA207C49DE0053BE7F /* UIView+SJLineChart.m */,
 			);
 			path = SJLineChart;
+			sourceTree = "<group>";
+		};
+		9F7A72B2207C4BEE0053BE7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A72B3207C4BEE0053BE7F /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F0887AF2074A9720055A839 /* SJLineChartDemo */ = {
+		9F7A726C207C498C0053BE7F /* SJLineChartDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F0887DC2074A9750055A839 /* Build configuration list for PBXNativeTarget "SJLineChartDemo" */;
+			buildConfigurationList = 9F7A7299207C498F0053BE7F /* Build configuration list for PBXNativeTarget "SJLineChartDemo" */;
 			buildPhases = (
-				9F0887AC2074A9720055A839 /* Sources */,
-				9F0887AD2074A9720055A839 /* Frameworks */,
-				9F0887AE2074A9720055A839 /* Resources */,
+				9F7A7269207C498C0053BE7F /* Sources */,
+				9F7A726A207C498C0053BE7F /* Frameworks */,
+				9F7A726B207C498C0053BE7F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -184,68 +194,68 @@
 			);
 			name = SJLineChartDemo;
 			productName = SJLineChartDemo;
-			productReference = 9F0887B02074A9720055A839 /* SJLineChartDemo.app */;
+			productReference = 9F7A726D207C498C0053BE7F /* SJLineChartDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F0887C72074A9750055A839 /* SJLineChartDemoTests */ = {
+		9F7A7284207C498E0053BE7F /* SJLineChartDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F0887DF2074A9750055A839 /* Build configuration list for PBXNativeTarget "SJLineChartDemoTests" */;
+			buildConfigurationList = 9F7A729C207C498F0053BE7F /* Build configuration list for PBXNativeTarget "SJLineChartDemoTests" */;
 			buildPhases = (
-				9F0887C42074A9750055A839 /* Sources */,
-				9F0887C52074A9750055A839 /* Frameworks */,
-				9F0887C62074A9750055A839 /* Resources */,
+				9F7A7281207C498E0053BE7F /* Sources */,
+				9F7A7282207C498E0053BE7F /* Frameworks */,
+				9F7A7283207C498E0053BE7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F0887CA2074A9750055A839 /* PBXTargetDependency */,
+				9F7A7287207C498E0053BE7F /* PBXTargetDependency */,
 			);
 			name = SJLineChartDemoTests;
 			productName = SJLineChartDemoTests;
-			productReference = 9F0887C82074A9750055A839 /* SJLineChartDemoTests.xctest */;
+			productReference = 9F7A7285207C498E0053BE7F /* SJLineChartDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9F0887D22074A9750055A839 /* SJLineChartDemoUITests */ = {
+		9F7A728F207C498E0053BE7F /* SJLineChartDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F0887E22074A9750055A839 /* Build configuration list for PBXNativeTarget "SJLineChartDemoUITests" */;
+			buildConfigurationList = 9F7A729F207C498F0053BE7F /* Build configuration list for PBXNativeTarget "SJLineChartDemoUITests" */;
 			buildPhases = (
-				9F0887CF2074A9750055A839 /* Sources */,
-				9F0887D02074A9750055A839 /* Frameworks */,
-				9F0887D12074A9750055A839 /* Resources */,
+				9F7A728C207C498E0053BE7F /* Sources */,
+				9F7A728D207C498E0053BE7F /* Frameworks */,
+				9F7A728E207C498E0053BE7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F0887D52074A9750055A839 /* PBXTargetDependency */,
+				9F7A7292207C498E0053BE7F /* PBXTargetDependency */,
 			);
 			name = SJLineChartDemoUITests;
 			productName = SJLineChartDemoUITests;
-			productReference = 9F0887D32074A9750055A839 /* SJLineChartDemoUITests.xctest */;
+			productReference = 9F7A7290207C498E0053BE7F /* SJLineChartDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9F0887A82074A9720055A839 /* Project object */ = {
+		9F7A7265207C498C0053BE7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "沈骏";
 				TargetAttributes = {
-					9F0887AF2074A9720055A839 = {
+					9F7A726C207C498C0053BE7F = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					9F0887C72074A9750055A839 = {
+					9F7A7284207C498E0053BE7F = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 9F0887AF2074A9720055A839;
+						TestTargetID = 9F7A726C207C498C0053BE7F;
 					};
-					9F0887D22074A9750055A839 = {
+					9F7A728F207C498E0053BE7F = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 9F0887AF2074A9720055A839;
+						TestTargetID = 9F7A726C207C498C0053BE7F;
 					};
 				};
 			};
-			buildConfigurationList = 9F0887AB2074A9720055A839 /* Build configuration list for PBXProject "SJLineChartDemo" */;
+			buildConfigurationList = 9F7A7268207C498C0053BE7F /* Build configuration list for PBXProject "SJLineChartDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,37 +263,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9F0887A72074A9720055A839;
-			productRefGroup = 9F0887B12074A9720055A839 /* Products */;
+			mainGroup = 9F7A7264207C498C0053BE7F;
+			productRefGroup = 9F7A726E207C498C0053BE7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F0887AF2074A9720055A839 /* SJLineChartDemo */,
-				9F0887C72074A9750055A839 /* SJLineChartDemoTests */,
-				9F0887D22074A9750055A839 /* SJLineChartDemoUITests */,
+				9F7A726C207C498C0053BE7F /* SJLineChartDemo */,
+				9F7A7284207C498E0053BE7F /* SJLineChartDemoTests */,
+				9F7A728F207C498E0053BE7F /* SJLineChartDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F0887AE2074A9720055A839 /* Resources */ = {
+		9F7A726B207C498C0053BE7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0887C02074A9750055A839 /* LaunchScreen.storyboard in Resources */,
-				9F0887BD2074A9750055A839 /* Assets.xcassets in Resources */,
-				9F0887BB2074A9720055A839 /* Main.storyboard in Resources */,
+				9F7A727D207C498E0053BE7F /* LaunchScreen.storyboard in Resources */,
+				9F7A727A207C498E0053BE7F /* Assets.xcassets in Resources */,
+				9F7A7278207C498C0053BE7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0887C62074A9750055A839 /* Resources */ = {
+		9F7A7283207C498E0053BE7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0887D12074A9750055A839 /* Resources */ = {
+		9F7A728E207C498E0053BE7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,65 +303,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F0887AC2074A9720055A839 /* Sources */ = {
+		9F7A7269207C498C0053BE7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0887FC2074ABF70055A839 /* SJLineChartContentView.m in Sources */,
-				9F0887B82074A9720055A839 /* ViewController.m in Sources */,
-				9F0888002074AD130055A839 /* UIView+SJLineChart.m in Sources */,
-				9F0887FA2074ABF70055A839 /* SJLineChartTools.m in Sources */,
-				9F0887FB2074ABF70055A839 /* SJLineChartView.m in Sources */,
-				9F0887C32074A9750055A839 /* main.m in Sources */,
-				9F0887B52074A9720055A839 /* AppDelegate.m in Sources */,
-				9F0887FD2074ABF70055A839 /* SJLinePointItem.m in Sources */,
+				9F7A72AF207C49DE0053BE7F /* SJLinePointItem.m in Sources */,
+				9F7A72B0207C49DE0053BE7F /* UIView+SJLineChart.m in Sources */,
+				9F7A72AD207C49DE0053BE7F /* SJLineChartContentView.m in Sources */,
+				9F7A72AE207C49DE0053BE7F /* SJLineChartTools.m in Sources */,
+				9F7A7275207C498C0053BE7F /* ViewController.m in Sources */,
+				9F7A7280207C498E0053BE7F /* main.m in Sources */,
+				9F7A72B1207C49DE0053BE7F /* SJLineChartView.m in Sources */,
+				9F7A7272207C498C0053BE7F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0887C42074A9750055A839 /* Sources */ = {
+		9F7A7281207C498E0053BE7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0887CD2074A9750055A839 /* SJLineChartDemoTests.m in Sources */,
+				9F7A728A207C498E0053BE7F /* SJLineChartDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0887CF2074A9750055A839 /* Sources */ = {
+		9F7A728C207C498E0053BE7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0887D82074A9750055A839 /* SJLineChartDemoUITests.m in Sources */,
+				9F7A7295207C498E0053BE7F /* SJLineChartDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F0887CA2074A9750055A839 /* PBXTargetDependency */ = {
+		9F7A7287207C498E0053BE7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F0887AF2074A9720055A839 /* SJLineChartDemo */;
-			targetProxy = 9F0887C92074A9750055A839 /* PBXContainerItemProxy */;
+			target = 9F7A726C207C498C0053BE7F /* SJLineChartDemo */;
+			targetProxy = 9F7A7286207C498E0053BE7F /* PBXContainerItemProxy */;
 		};
-		9F0887D52074A9750055A839 /* PBXTargetDependency */ = {
+		9F7A7292207C498E0053BE7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F0887AF2074A9720055A839 /* SJLineChartDemo */;
-			targetProxy = 9F0887D42074A9750055A839 /* PBXContainerItemProxy */;
+			target = 9F7A726C207C498C0053BE7F /* SJLineChartDemo */;
+			targetProxy = 9F7A7291207C498E0053BE7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F0887B92074A9720055A839 /* Main.storyboard */ = {
+		9F7A7276207C498C0053BE7F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F0887BA2074A9720055A839 /* Base */,
+				9F7A7277207C498C0053BE7F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9F0887BE2074A9750055A839 /* LaunchScreen.storyboard */ = {
+		9F7A727B207C498E0053BE7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F0887BF2074A9750055A839 /* Base */,
+				9F7A727C207C498E0053BE7F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -359,7 +369,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9F0887DA2074A9750055A839 /* Debug */ = {
+		9F7A7297207C498F0053BE7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,8 +410,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SJLineChartDemo/SJLineChart.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -419,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		9F0887DB2074A9750055A839 /* Release */ = {
+		9F7A7298207C498F0053BE7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,8 +466,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SJLineChartDemo/SJLineChart.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -473,7 +479,7 @@
 			};
 			name = Release;
 		};
-		9F0887DD2074A9750055A839 /* Debug */ = {
+		9F7A729A207C498F0053BE7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -490,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		9F0887DE2074A9750055A839 /* Release */ = {
+		9F7A729B207C498F0053BE7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -507,7 +513,7 @@
 			};
 			name = Release;
 		};
-		9F0887E02074A9750055A839 /* Debug */ = {
+		9F7A729D207C498F0053BE7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		9F0887E12074A9750055A839 /* Release */ = {
+		9F7A729E207C498F0053BE7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -545,7 +551,7 @@
 			};
 			name = Release;
 		};
-		9F0887E32074A9750055A839 /* Debug */ = {
+		9F7A72A0207C498F0053BE7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -563,7 +569,7 @@
 			};
 			name = Debug;
 		};
-		9F0887E42074A9750055A839 /* Release */ = {
+		9F7A72A1207C498F0053BE7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -584,43 +590,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F0887AB2074A9720055A839 /* Build configuration list for PBXProject "SJLineChartDemo" */ = {
+		9F7A7268207C498C0053BE7F /* Build configuration list for PBXProject "SJLineChartDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F0887DA2074A9750055A839 /* Debug */,
-				9F0887DB2074A9750055A839 /* Release */,
+				9F7A7297207C498F0053BE7F /* Debug */,
+				9F7A7298207C498F0053BE7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F0887DC2074A9750055A839 /* Build configuration list for PBXNativeTarget "SJLineChartDemo" */ = {
+		9F7A7299207C498F0053BE7F /* Build configuration list for PBXNativeTarget "SJLineChartDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F0887DD2074A9750055A839 /* Debug */,
-				9F0887DE2074A9750055A839 /* Release */,
+				9F7A729A207C498F0053BE7F /* Debug */,
+				9F7A729B207C498F0053BE7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F0887DF2074A9750055A839 /* Build configuration list for PBXNativeTarget "SJLineChartDemoTests" */ = {
+		9F7A729C207C498F0053BE7F /* Build configuration list for PBXNativeTarget "SJLineChartDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F0887E02074A9750055A839 /* Debug */,
-				9F0887E12074A9750055A839 /* Release */,
+				9F7A729D207C498F0053BE7F /* Debug */,
+				9F7A729E207C498F0053BE7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F0887E22074A9750055A839 /* Build configuration list for PBXNativeTarget "SJLineChartDemoUITests" */ = {
+		9F7A729F207C498F0053BE7F /* Build configuration list for PBXNativeTarget "SJLineChartDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F0887E32074A9750055A839 /* Debug */,
-				9F0887E42074A9750055A839 /* Release */,
+				9F7A72A0207C498F0053BE7F /* Debug */,
+				9F7A72A1207C498F0053BE7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9F0887A82074A9720055A839 /* Project object */;
+	rootObject = 9F7A7265207C498C0053BE7F /* Project object */;
 }
