@@ -10,7 +10,7 @@
 
 @interface SJLineChartContentView : UIView
 
-@property (strong, nonatomic) id<SJLineChartViewDataSource> datasource;
+@property (weak, nonatomic) id<SJLineChartViewDataSource> datasource;
 
 /*         x,y轴刻度值颜色          */
 @property (nonatomic,strong) UIColor * xAndYNumberColor;
